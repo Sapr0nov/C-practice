@@ -28,8 +28,69 @@
 //Формат вывода
 //Напечатайте четырёхбуквенный код, соответствующий слову.
 
+#include <iostream>
+#include <stdio.h>
+
 void soundex()
 {
-    
+    std::string word, result;
+    std::getline(std::cin, word);
+
+    result = word[0];
+
+    for (unsigned long i = 1; i < word.size(); ++i)
+    {
+        switch ( word[i] )
+        {
+            case 'b':
+            case 'f':
+            case 'p':
+            case 'v':
+                if (result.back()!='1') {
+                    result += '1';
+                }
+                break;
+            case 'c':
+            case 'g':
+            case 'j':
+            case 'k':
+            case 'q':
+            case 's':
+            case 'x':
+            case 'z':
+                if (result.back()!='2') {
+                    result += '2';
+                }
+                break;
+            case 'd':
+            case 't':
+                if (result.back()!='3') {
+                    if (result.back()!='3') {
+                        result += '3';
+                    }
+                }
+                break;
+            case 'l':
+                if (result.back()!='4') {
+                    result += '4';
+                }
+                break;
+            case 'm':
+            case 'n':
+                if (result.back()!='5') {
+                    result += '5';
+                }
+                break;
+            case 'r':
+                if (result.back()!='6') {
+                    result += '6';
+                }
+                break;
+            default:
+                break;
+        }
+    }
+    result.resize(4,'0');
+    std::cout << result;
     return;
 }
