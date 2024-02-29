@@ -6,3 +6,29 @@
 //
 //Формат вывода
 //Напечатайте строки в отсортированном по убыванию порядке. Для сравнения строк друг с другом достаточно использовать стандартные операторы сравнения, определённые для std::string.
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+
+void desc_sort()
+{
+    std::cout << "starting \n";
+    std::ifstream file("input.txt");
+    std::vector<std::string> input, output;
+    std::string line;
+    
+    while(std::getline(file, line))
+    {
+        input.push_back(line);
+    }
+    std::cout << input.size();
+
+    for (std::string value : input) {
+        std::cout << value << " ";
+    }
+
+    return;
+}
+

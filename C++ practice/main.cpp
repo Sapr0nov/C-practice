@@ -22,6 +22,7 @@
 //void passwords();
 void soundex();
 void reverse_permutation();
+void desc_sort();
 
 int main() {
 //    print_text();
@@ -37,6 +38,7 @@ int main() {
 //    ln2();
 //    passwords();
 //    soundex();
-    reverse_permutation();
+//    reverse_permutation();
+    desc_sort();
     return 0;
 }
