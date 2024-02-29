@@ -24,6 +24,14 @@ This repository contains educational tasks in C++, taken from the textbook avail
 - 2.3.6. [Summa of digits](C%2B%2B%20practice/summa_of_digits.cpp)
 - 2.3.7. [ln 2](C%2B%2B%20practice/ln2.cpp)
 
+2.4. Vectors and strings
+- 2.4.1 [Passwords](C%2B%2B%20practice/passwords.cpp)
+- 2.4.2 [Soundex](C%2B%2B%20practice/soundex.cpp)
+- 2.4.3 [Reverse permutation](C%2B%2B%20practice/reverse_permutation.cpp)
+- 2.4.4 [Descending sort order](C%2B%2B%20practice/desc_sort.cpp)
+- 2.4.5 [Palindromes](C%2B%2B%20practice/palindromes.cpp)
+- 2.4.6 [Sapper](C%2B%2B%20practice/sapper.cpp)
+
 
 ## How to Use
 

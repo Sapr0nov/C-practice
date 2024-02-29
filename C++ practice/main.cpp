@@ -19,6 +19,9 @@
 //void summa_of_digits();
 //void ln2();
 
+//void passwords();
+void soundex();
+
 int main() {
 //    print_text();
 //    sum_of_numbers();
@@ -31,5 +34,7 @@ int main() {
 //    render_calendar();
 //    summa_of_digits();
 //    ln2();
+//    passwords();
+    soundex();
     return 0;
 }
