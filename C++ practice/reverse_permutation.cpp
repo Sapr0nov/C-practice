@@ -17,3 +17,26 @@
 //n чисел от 1 до n. Число Bk
 //  должно обозначать номер гостя, который сел на
 //k-е место.
+
+#include <iostream>
+#include <vector>
+
+void reverse_permutation()
+{
+    unsigned int n;
+    std::vector<unsigned int> persons, places;
+    std::cin >> n;
+    persons.resize(n, 0);
+    places.resize(n, 0);
+    
+    for (unsigned int i = 0; i < n; ++i) {
+        std::cin >> persons[i];
+        places[persons[i] - 1] = i + 1;
+    }
+    
+    for (unsigned int elem : places) {
+        std::cout << elem << " ";
+    }
+
+    return;
+}

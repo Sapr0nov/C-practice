@@ -21,6 +21,7 @@
 
 //void passwords();
 void soundex();
+void reverse_permutation();
 
 int main() {
 //    print_text();
@@ -35,6 +36,7 @@ int main() {
 //    summa_of_digits();
 //    ln2();
 //    passwords();
-    soundex();
+//    soundex();
+    reverse_permutation();
     return 0;
 }
