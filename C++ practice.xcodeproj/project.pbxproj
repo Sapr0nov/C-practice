@@ -10,6 +10,15 @@
 		FC7BF32D2B908CE700467786 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7BF32C2B908CE700467786 /* main.cpp */; };
 		FC7BF3352B90991800467786 /* print_text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7BF3332B90991700467786 /* print_text.cpp */; };
 		FC7BF3372B909B7300467786 /* sum_of_numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC7BF3362B909B7300467786 /* sum_of_numbers.cpp */; };
+		FCC64D4A2B90B42100777545 /* inches.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC64D492B90B42100777545 /* inches.cpp */; };
+		FCC64D4C2B90B43700777545 /* ar_progression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC64D4B2B90B43700777545 /* ar_progression.cpp */; };
+		FCC64D4E2B90B77400777545 /* queen_code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC64D4D2B90B77400777545 /* queen_code.cpp */; };
+		FCC64D502B90B78D00777545 /* rect_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC64D4F2B90B78D00777545 /* rect_triangle.cpp */; };
+		FCC64D522B90B7A000777545 /* fiscal_year.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC64D512B90B7A000777545 /* fiscal_year.cpp */; };
+		FCC64D542B90B7B400777545 /* days_in_month.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC64D532B90B7B400777545 /* days_in_month.cpp */; };
+		FCC64D562B90B7C400777545 /* render_calendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC64D552B90B7C400777545 /* render_calendar.cpp */; };
+		FCC64D582B90B7D300777545 /* summa_of_digits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC64D572B90B7D300777545 /* summa_of_digits.cpp */; };
+		FCC64D5A2B90B7E300777545 /* ln2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCC64D592B90B7E300777545 /* ln2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +38,15 @@
 		FC7BF32C2B908CE700467786 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FC7BF3332B90991700467786 /* print_text.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = print_text.cpp; sourceTree = "<group>"; };
 		FC7BF3362B909B7300467786 /* sum_of_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sum_of_numbers.cpp; sourceTree = "<group>"; };
+		FCC64D492B90B42100777545 /* inches.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inches.cpp; sourceTree = "<group>"; };
+		FCC64D4B2B90B43700777545 /* ar_progression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ar_progression.cpp; sourceTree = "<group>"; };
+		FCC64D4D2B90B77400777545 /* queen_code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = queen_code.cpp; sourceTree = "<group>"; };
+		FCC64D4F2B90B78D00777545 /* rect_triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rect_triangle.cpp; sourceTree = "<group>"; };
+		FCC64D512B90B7A000777545 /* fiscal_year.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fiscal_year.cpp; sourceTree = "<group>"; };
+		FCC64D532B90B7B400777545 /* days_in_month.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = days_in_month.cpp; sourceTree = "<group>"; };
+		FCC64D552B90B7C400777545 /* render_calendar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = render_calendar.cpp; sourceTree = "<group>"; };
+		FCC64D572B90B7D300777545 /* summa_of_digits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = summa_of_digits.cpp; sourceTree = "<group>"; };
+		FCC64D592B90B7E300777545 /* ln2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ln2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +79,18 @@
 		FC7BF32B2B908CE700467786 /* C++ practice */ = {
 			isa = PBXGroup;
 			children = (
+				FCC64D592B90B7E300777545 /* ln2.cpp */,
+				FCC64D572B90B7D300777545 /* summa_of_digits.cpp */,
+				FCC64D552B90B7C400777545 /* render_calendar.cpp */,
+				FCC64D532B90B7B400777545 /* days_in_month.cpp */,
+				FCC64D512B90B7A000777545 /* fiscal_year.cpp */,
+				FCC64D4F2B90B78D00777545 /* rect_triangle.cpp */,
+				FCC64D4D2B90B77400777545 /* queen_code.cpp */,
+				FCC64D4B2B90B43700777545 /* ar_progression.cpp */,
 				FC7BF3362B909B7300467786 /* sum_of_numbers.cpp */,
 				FC7BF3332B90991700467786 /* print_text.cpp */,
 				FC7BF32C2B908CE700467786 /* main.cpp */,
+				FCC64D492B90B42100777545 /* inches.cpp */,
 			);
 			path = "C++ practice";
 			sourceTree = "<group>";
@@ -125,8 +152,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC64D5A2B90B7E300777545 /* ln2.cpp in Sources */,
 				FC7BF3352B90991800467786 /* print_text.cpp in Sources */,
+				FCC64D4E2B90B77400777545 /* queen_code.cpp in Sources */,
+				FCC64D522B90B7A000777545 /* fiscal_year.cpp in Sources */,
+				FCC64D4A2B90B42100777545 /* inches.cpp in Sources */,
+				FCC64D582B90B7D300777545 /* summa_of_digits.cpp in Sources */,
 				FC7BF3372B909B7300467786 /* sum_of_numbers.cpp in Sources */,
+				FCC64D4C2B90B43700777545 /* ar_progression.cpp in Sources */,
+				FCC64D502B90B78D00777545 /* rect_triangle.cpp in Sources */,
+				FCC64D562B90B7C400777545 /* render_calendar.cpp in Sources */,
+				FCC64D542B90B7B400777545 /* days_in_month.cpp in Sources */,
 				FC7BF32D2B908CE700467786 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
