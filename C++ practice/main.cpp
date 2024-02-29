@@ -7,8 +7,11 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+void print_text();
+//void sum_of_numbers();
+int main() {
+    print_text();
+//    sum_of_numbers();
+
     return 0;
 }
