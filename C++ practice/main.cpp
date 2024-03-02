@@ -23,6 +23,7 @@
 void soundex();
 void reverse_permutation();
 void desc_sort();
+void palindromes();
 
 int main() {
 //    print_text();
@@ -39,6 +40,7 @@ int main() {
 //    passwords();
 //    soundex();
 //    reverse_permutation();
-    desc_sort();
+//    desc_sort();
+    palindromes();
     return 0;
 }
