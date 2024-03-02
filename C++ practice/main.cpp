@@ -24,6 +24,7 @@ void soundex();
 void reverse_permutation();
 void desc_sort();
 void palindromes();
+void sapper();
 
 int main() {
 //    print_text();
@@ -41,6 +42,7 @@ int main() {
 //    soundex();
 //    reverse_permutation();
 //    desc_sort();
-    palindromes();
+//    palindromes();
+    sapper();
     return 0;
 }
