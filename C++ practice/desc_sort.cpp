@@ -14,21 +14,34 @@
 
 void desc_sort()
 {
-    std::cout << "starting \n";
-    std::ifstream file("input.txt");
+    std::ifstream file("input.txt"); // absolute path for your file
     std::vector<std::string> input, output;
-    std::string line;
-    
+    std::string line, tmp;
+
     while(std::getline(file, line))
     {
         input.push_back(line);
     }
-    std::cout << input.size();
+
+    bool flag = true;
+    while (flag) {
+        flag = false;
+        for (unsigned int i = 0; i < input.size(); ++i)
+        {
+            while (i + 1 < input.size() && input[i + 1] > input[i]) {
+                tmp = input[i];
+                input[i] = input[i + 1];
+                input[i + 1] = tmp;
+                flag = true;
+            }
+        }
+    }
 
     for (std::string value : input) {
-        std::cout << value << " ";
+        std::cout << value << "\n";
     }
+
+    file.close();
 
     return;
 }
-

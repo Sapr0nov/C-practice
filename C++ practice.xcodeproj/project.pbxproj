@@ -76,6 +76,7 @@
 		FC7BF3202B908CE700467786 = {
 			isa = PBXGroup;
 			children = (
+				FC48F6432B9110B800104314 /* input.txt */,
 				FC7BF32B2B908CE700467786 /* C++ practice */,
 				FC7BF32A2B908CE700467786 /* Products */,
 			);
@@ -108,7 +109,6 @@
 				FC7BF3332B90991700467786 /* print_text.cpp */,
 				FC7BF32C2B908CE700467786 /* main.cpp */,
 				FCC64D492B90B42100777545 /* inches.cpp */,
-				FC48F6432B9110B800104314 /* input.txt */,
 				FC48F6442B9110F500104314 /* passwords.cpp */,
 				FC48F6462B91114A00104314 /* soundex.cpp */,
 			);
